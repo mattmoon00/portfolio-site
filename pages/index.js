@@ -3,11 +3,11 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { CgDarkMode } from "react-icons/cg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
-import matt from "public/myphoto.png";
-import pokemonProject from "public/Screenshot 2022-12-21 at 5.30.35 PM.png";
-import img1 from "public/Screenshot 2022-12-21 at 5.32.07 PM.png";
-import img2 from "public/Screenshot 2022-12-21 at 5.32.33 PM.png";
-import img3 from "public/Screenshot 2022-12-21 at 5.32.46 PM.png";
+import matt from "../public/myphoto.png";
+import pokemonProject from "../public/Screenshot 2022-12-21 at 5.30.35 PM.png";
+import img1 from "../public/Screenshot 2022-12-21 at 5.32.07 PM.png";
+import img2 from "../public/Screenshot 2022-12-21 at 5.32.33 PM.png";
+import img3 from "../public/Screenshot 2022-12-21 at 5.32.46 PM.png";
 import {
   DiJsBadge,
   DiHtml5,
@@ -18,8 +18,8 @@ import {
   DiSwift,
 } from "react-icons/di";
 import { useState } from "react";
-import devMtnCert from "public/Devmountain certificate.jpg";
-import uvuLogo from "public/utah-valley-university.svg";
+import devMtnCert from "../public/Devmountain certificate.jpg";
+import uvuLogo from "../public/utah-valley-university.svg";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
